@@ -25,8 +25,6 @@ li, a, button{
 
 a{
   padding : 10px;
-  /* border : solid white;
-  border-radius: 50px; */
   border-radius: 50px;
 }
 
@@ -62,7 +60,7 @@ a{
 .nav_link li a:hover{
   color : white;
   background-color: black;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 50px;
 }
 
