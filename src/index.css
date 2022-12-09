@@ -23,6 +23,13 @@ li, a, button{
   font-family: coolvetica;
 }
 
+a{
+  padding : 10px;
+  /* border : solid white;
+  border-radius: 50px; */
+  border-radius: 50px;
+}
+
 .navbar{
   display : flex;
   justify-content: space-between;
