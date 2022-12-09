@@ -75,7 +75,14 @@ button {
 }
 
 button:hover{
-  background-color: rgba(0, 0, 0, 0.7);
+
+  padding :9px 25px;  
+  background-image: linear-gradient(to right, #BDABFF, #AACCFF);
+  border : none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color : white;
 }
 
 /**
@@ -104,7 +111,7 @@ h2 small {
   margin: -8px 0px 0px -8px;
   border-radius: 50%;
   pointer-events: none !important;
-  box-shadow: 0 0 8px 8px rgba(0, 55, 255, 0.2);
+  box-shadow: 0 0 8px 8px rgba(189, 171, 255, 0.2);
   background-color: black;
 }
 
