@@ -10,6 +10,10 @@ const Pomo = () =>{
     const resetTime = () =>{
         getSeconds[0].innerHTML = "00"
         getTens[0].innerHTML = "00"
+        let x = window.prompt("Enter Minutes")
+        let y = window.prompt("Enter Seconds")
+        getSeconds[0].innerHTML = y
+        getTens[0].innerHTML = x
     }
 
     const clearTime = () =>{

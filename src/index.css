@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,'coolvetica', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -124,7 +124,9 @@ h2 small {
 /* taskbar */
 .taskbox{
   display : flex;
-  
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   width : 65%;
   height : auto;
   /* border : solid rgba; */
@@ -132,7 +134,85 @@ h2 small {
   box-shadow: rgba(189, 171, 255, 0.5) 0px 10px 50px;
   margin: 10px 15px 10px 30px;
 }
+.todobox{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 95%;
+  border-radius: 20px;
+  align-items: center;
+  
+}
+.todoNav{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2em;
+}
+.btn-todo{
+  padding: 0px;
+  margin : 0;
+  width: 2em;
+}
+.donebox{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 95%;
+  border-radius: 20px;
+  align-items: center;
+}
+.doneNav{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
 
+}
+.btn-done{
+  padding: 0px;
+  margin : 0;
+  width: 2em;
+}
+.notesbox{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 95%;
+  border-radius: 20px;
+  align-items: center;
+}
+.notesNav{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.btn-notes{
+  padding: 0px;
+  margin : 0;
+  width: 2em;
+}
+.taskCardBox{
+  display: flex;
+  flex-direction: row;
+  margin: .5em 0 .5em 0;
+  width: 100%;
+  height: 3em;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  border: #BDABFF solid 1px;
+}
+.taskButton{
+  padding: 0;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
 
 /* pomodoro */
 .pomobox{
@@ -165,6 +245,7 @@ h2 small {
   width: 225px;
   border-radius: 50%;
   margin-top: 2em;
+  font-size: 3em;
 }
 .buttonflex{
   display: flex;
