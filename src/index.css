@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li, a, button{
+  font-size : 16px;
+}
+
+.navbar{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 10px 30px;
+  margin-top : 10px;
+
+}
+
+.logo{
+  height: 50px;
+
+}
+
+.nav_link{
+  list-style : none;
+}
+
+.nav_link li {
+  display: inline-block;
+  padding : 0px 20px;
+}
+
+.nav_link li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color : black;
+}
+
+.nav_link li a:hover{
+  color : white;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+button {
+  padding :9px 25px;
+  background-color: rgb(0, 0, 0);
+  border : none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color : white;
+}
+
+button:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
