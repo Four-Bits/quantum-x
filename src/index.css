@@ -1,3 +1,8 @@
+@font-face {
+  font-family: coolvetica;
+  src: url(../src/assets/coolvetica\ rg.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -14,6 +20,7 @@ code {
 
 li, a, button{
   font-size : 16px;
+  font-family: coolvetica;
 }
 
 .navbar{
@@ -26,7 +33,7 @@ li, a, button{
 }
 
 .logo{
-  height: 50px;
+  height: 40px;
 
 }
 
@@ -64,4 +71,56 @@ button {
 
 button:hover{
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/**
+ * Mouse Cursor Style
+ */
+
+h2 {
+  font-family: "Google Sans";
+  font-weight: 500;
+  text-align: center;
+}
+h2 small {
+  font-weight: 300;
+}
+/**
+* Mouse Cursor Style
+*/
+
+/**
+* Simple Radial Mouse Cursor
+*/
+#mouse-circle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -8px 0px 0px -8px;
+  border-radius: 50%;
+  pointer-events: none !important;
+  box-shadow: 0 0 8px 8px rgba(0, 55, 255, 0.2);
+  background-color: black;
+}
+
+
+.bodybox{
+  margin-top: 10px;
+  display: flex;
+  height: 70vh;
+}
+
+/* taskbar */
+.taskbox{
+  display : flex;
+  background-color: red;
+  width : 50%;
+  height : auto;
+}
+
+/* pomodoro */
+.pomobox{
+  display: flex;
+  background-color: blue;
+  width : 50%;
 }
