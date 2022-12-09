@@ -111,14 +111,14 @@ h2 small {
 
 .bodybox{
   display: flex;
-  height: 70vh;
+  height: 75vh;
 }
 
 /* taskbar */
 .taskbox{
   display : flex;
   
-  width : 60%;
+  width : 65%;
   height : auto;
   /* border : solid rgba; */
   border-radius: 20px;
@@ -130,8 +130,53 @@ h2 small {
 /* pomodoro */
 .pomobox{
   display: flex;
-  width : 40%;
+  width : 35%;
   border-radius: 20px;
   box-shadow: rgba(170, 204, 255, 0.5) 0px 10px 50px;
   margin: 10px 30px 10px 15px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom : 5rem;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction :column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+
+}
+
+.timeflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(170, 204, 255, 0.5) 0px 10px 50px;
+  /* background-color: red; */
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  margin-top: 2em;
+}
+.buttonflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30vh;
+  margin-top : 5em;
+}
+
+.btn-start{
+  transition: all 0.3s ease 0s;
+}
+
+.btn-start:hover{
+  transform: scale(1.1) translateY(-.8em);
+  background-color: black;
+}
+
+.btn-reset:hover{
+  transform: scale(1.1) translateY(-.8em);
+  background-color: black;
 }
