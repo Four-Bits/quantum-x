@@ -112,7 +112,6 @@ h2 small {
 
 
 .bodybox{
-  margin-top: 10px;
   display: flex;
   height: 70vh;
 }
@@ -120,14 +119,21 @@ h2 small {
 /* taskbar */
 .taskbox{
   display : flex;
-  background-color: red;
+  
   width : 50%;
   height : auto;
+  /* border : solid rgba; */
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin: 10px 30px 10px 30px;
 }
+
 
 /* pomodoro */
 .pomobox{
   display: flex;
-  background-color: blue;
   width : 50%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin: 10px 30px 10px 30px;
 }
