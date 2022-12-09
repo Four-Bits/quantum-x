@@ -120,20 +120,20 @@ h2 small {
 .taskbox{
   display : flex;
   
-  width : 50%;
+  width : 60%;
   height : auto;
   /* border : solid rgba; */
   border-radius: 20px;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  margin: 10px 30px 10px 30px;
+  box-shadow: rgba(189, 171, 255, 0.5) 0px 10px 50px;
+  margin: 10px 15px 10px 30px;
 }
 
 
 /* pomodoro */
 .pomobox{
   display: flex;
-  width : 50%;
+  width : 40%;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  margin: 10px 30px 10px 30px;
+  box-shadow: rgba(170, 204, 255, 0.5) 0px 10px 50px;
+  margin: 10px 30px 10px 15px;
 }
