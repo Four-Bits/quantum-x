@@ -1,6 +1,9 @@
 import logo from "../assets/logo.png"
 
 const Menu = () =>{
+    const visit = () =>{
+        window.location.href = 'https://ps-about.netlify.app/'
+    }
     return(
         <div className = "navbar">
             <img className = "logo" src={logo} alt="image not found"/>
@@ -10,7 +13,7 @@ const Menu = () =>{
                     <li><a href="#">Pomodoro</a></li>
                 </ul>
             </nav>
-            <a className = "cta" href="#"><button>About</button></a>
+            <a className = "cta"  onClick={visit}><button>About</button></a>
 
         </div>
     );
