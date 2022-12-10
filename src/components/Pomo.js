@@ -62,9 +62,9 @@ const Pomo = () =>{
         <div className = "pomobox">
             <div className = "wrapper">
                 <div className = "timeflex">
-                    <span className = "tens">00</span>
+                    <span className = "tens">25</span>
                     <span>:</span>
-                    <span className = "seconds">10</span>   
+                    <span className = "seconds">00</span>   
                 </div>
                 <div className = "buttonflex">
                     <button className="btn-start" onClick= {startTimer}>Start</button>
