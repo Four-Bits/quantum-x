@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 
 }
 
@@ -267,4 +268,23 @@ h2 small {
 .btn-reset:hover{
   transform: scale(1.1) translateY(-.8em);
   background-color: black;
+}
+
+@keyframes run {
+  0% {
+    margin-top: -15px;
+    margin-left: -6%;
+  }
+  100% {
+    margin-top: -15px;
+    margin-left: 100%;
+  }
+}
+.sli {
+  background: url(../src/assets/slime-animation.gif) no-repeat;
+  height: 175px;
+  width: 175px;
+  background-size: 175px;
+
+  animation: run 25s infinite;
 }
