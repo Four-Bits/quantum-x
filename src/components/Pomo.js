@@ -27,33 +27,21 @@ const Pomo = () =>{
     const updateTime = () =>{
         let seconds = parseInt(getSeconds[0].innerHTML)
         let tens = parseInt(getTens[0].innerHTML)
-
         
         seconds -= 1
-        if(seconds === 0){
-            if(tens === 0){
-                getSeconds[0].innerHTML = "00"
-                alert("Take a break, you earned it!")
-                clearTime()
-                resetTime()
-                
-            }else{
-                getSeconds[0].innerHTML = 59
+        if(seconds === 0 && tens ===0){
+            alert("its break time")
+        }else{
+            if(seconds < 0){
+                getSeconds[0].innerHTML = "59"
                 getTens[0].innerHTML = tens - 1
-                if(tens === 0){
-                    getTens[0].innerHTML = "00"
+            }else{
+                if(seconds < 10){
+                    getSeconds[0].innerHTML = '0' + seconds.toString()
+                }else{
+                    getSeconds[0].innerHTML = seconds
                 }
             }
-
-        }else if(seconds < 10){
-            if(seconds < 0){
-                getSeconds[0].innerHTML = '00'
-            }else{
-                getSeconds[0].innerHTML = '0' + seconds.toString()
-            }
-            
-        }else{
-            getSeconds[0].innerHTML = seconds
         }
         
     }
