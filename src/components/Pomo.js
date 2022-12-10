@@ -33,7 +33,7 @@ const Pomo = () =>{
         if(seconds === 0){
             if(tens === 0){
                 getSeconds[0].innerHTML = "00"
-                alert("Take a break you earned it")
+                alert("Take a break, you earned it!")
                 clearTime()
                 resetTime()
                 
