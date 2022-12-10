@@ -6,7 +6,7 @@ const Menu = () =>{
             <img className = "logo" src={logo} alt="image not found"/>
             <nav>
                 <ul className = "nav_link">
-                    <li><a href="#">Quests</a></li>
+                    <li><a href="#">Tasks</a></li>
                     <li><a href="#">Pomodoro</a></li>
                 </ul>
             </nav>
