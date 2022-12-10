@@ -43,8 +43,8 @@ const Task = () =>{
         <div className = "taskbox">
             <div className = "todobox">
                 <div className = "todoNav">
-                    <div>Todo</div>
-                    <button className = "btn-todo" onClick={click1}>+</button>
+                    <div>To-do&nbsp;</div>
+                    <button className = "btn-add" onClick={click1}>+</button>
                 </div>
                 {lst_1.map((item) => {
                     return(<TaskCard text = {item} btn = {() => {done(item)}}/>)
@@ -52,8 +52,8 @@ const Task = () =>{
             </div>
             <div className = "donebox">
                 <div className = "doneNav">
-                    <div>Done</div>
-                    <button className = "btn-done" onClick={click2}>+</button>
+                    <div>Done&nbsp;</div>
+                    <button className = "btn-add" onClick={click2}>+</button>
                 </div>
                 {lst_2.map((item) => {
                     return(<TaskCard text = {item} btn = {() => {undone(item)}}/>)
@@ -61,8 +61,8 @@ const Task = () =>{
             </div>
             <div className = "notesbox">
                 <div className = "notesNav">
-                    <div>Notes</div>
-                    <button className = "btn-todo" onClick={click3}>+</button>
+                    <div>Notes&nbsp;</div>
+                    <button className = "btn-add" onClick={click3}>+</button>
                 </div>
                 {lst_3.map((item) => {
                     return(<TaskCard text = {item} btn = {() => {notedel(item)}}/>)

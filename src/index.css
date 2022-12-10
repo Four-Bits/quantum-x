@@ -142,6 +142,7 @@ h2 small {
   height: 95%;
   border-radius: 20px;
   align-items: center;
+  margin-top: 20px;
   
 }
 .todoNav{
@@ -149,13 +150,23 @@ h2 small {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 2em;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.btn-todo{
+.btn-add{
   padding: 0px;
   margin : 0;
-  width: 2em;
+  width: 24px;
+  height: 24px;
 }
+
+.btn-add:hover {
+  padding: 0px;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
 .donebox{
   display: flex;
   flex-direction: column;
@@ -163,13 +174,15 @@ h2 small {
   height: 95%;
   border-radius: 20px;
   align-items: center;
+  margin-top: 20px;
 }
 .doneNav{
   display : flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 30px;
+  margin-bottom: 10px;
 
 }
 .btn-done{
@@ -184,13 +197,15 @@ h2 small {
   height: 95%;
   border-radius: 20px;
   align-items: center;
+  margin-top: 20px;
 }
 .notesNav{
   display : flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 .btn-notes{
   padding: 0px;
@@ -200,19 +215,32 @@ h2 small {
 .taskCardBox{
   display: flex;
   flex-direction: row;
-  margin: .5em 0 .5em 0;
+  margin: 0.4em 0 0.4em 0;
   width: 100%;
   height: 3em;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 10px;
   border: #BDABFF solid 1px;
+  
 }
 .taskButton{
   padding: 0;
-  width: 2em;
-  height: 2em;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
+  background: white;
+  color: black;
+  font-size: 18px;
+
+}
+
+.taskButton:hover {
+  padding: 0px;
+  margin: 0;
+  width: 28px;
+  height: 28px;
+  background: black;
 }
 
 /* pomodoro */

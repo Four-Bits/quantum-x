@@ -6,11 +6,11 @@ const Menu = () =>{
             <img className = "logo" src={logo} alt="image not found"/>
             <nav>
                 <ul className = "nav_link">
-                    <li><a href="#">Quest</a></li>
+                    <li><a href="#">Quests</a></li>
                     <li><a href="#">Pomodoro</a></li>
                 </ul>
             </nav>
-            <a className = "cta" href="#"><button>About Us</button></a>
+            <a className = "cta" href="#"><button>About</button></a>
 
         </div>
     );
