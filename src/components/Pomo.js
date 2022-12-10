@@ -24,13 +24,20 @@ const Pomo = () =>{
         
     }
 
+    const backToDefault = () =>{
+        clearInterval(updateTime)
+        getTens[0].innerHTML = 25 
+        getSeconds[0].innerHTML = '00'
+    }
+
     const updateTime = () =>{
         let seconds = parseInt(getSeconds[0].innerHTML)
         let tens = parseInt(getTens[0].innerHTML)
         
         seconds -= 1
         if(seconds === 0 && tens ===0){
-            alert("its break time")
+            alert("take a break, you earned")
+            backToDefault()
         }else{
             if(seconds < 0){
                 getSeconds[0].innerHTML = "59"
